@@ -7,3 +7,9 @@ Which should be fixed.  LWP::Curl is nice but takes a lot of dependencies.
 
 This is a part of a larger LoC Slave Narratives audio cleanup project.
 
+Run:
+
+./download_loc_audio.pl 'https://www.loc.gov/audio/?c=150&fa=subject:slave+narratives&fo=json'
+
+To download everything to the 'data' directory.  Will take 8GB.
+
